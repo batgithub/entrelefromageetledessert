@@ -8,51 +8,64 @@ module.exports = function(grunt){
 	grunt.initConfig({	//initialisation de l'ensemble des tâches
 
 
-    sass: {                              // Task
-        dev: {                            // Target
-            files: {                         // Dictionary of files
-                'dev/style.css': 'dev/sass/style.scss'
-            },
-            options: {
-                update: true,
-                sourcemap: 'true',
-            }
-        }
-    },
+        sass: {                              // Task
+            dev: {                            // Target
+                files: {                         // Dictionary of files
+                    'dev/style.css': 'dev/sass/style.scss'
+                },
+                options: {
+                    update: true,
+                    sourcemap: 'auto'
 
-    autoprefixer: {
-        dist :{
-            files: {
-                // Target-specific file lists and/or options go here.
-                'dev/style-autoprefixer.css':'dev/style.css',
+                }
+            },
+            prod: {                            // Target
+                files: {                         // Dictionary of files
+                    'prod/style.css': 'dev/sass/style.scss'
+                },
+                options: {
+                    update: true,
+                    sourcemap: 'none',
+                    style:'compressed'
+
+                }
             }
-        }
-    },
+        },
+
+        autoprefixer: {
+            dist :{
+                files: {
+                    // Target-specific file lists and/or options go here.
+                    'dev/style-autoprefixer.css':'dev/style.css',
+                }
+            }
+        },
 
 
         watch: {
 			options: {
-      		livereload: true,
-    	},
-
-
-        html: {
-				files: ['**/*.html']
-			},
-			sass : {
-				files: ['dev/sass/**/*.scss'],
-				tasks: ['sass:dev'],
-				options: { spawn: false }
-			}
-		}
+      		        livereload: true,
+	        },
+            html: {
+                files: ['**/*.html']
+            },
+            sass: {
+                files: ['dev/sass/**/*.scss'],
+                tasks: ['sass:dev'],
+                options: { spawn: false }
+            },
+            grunt: {
+                files: ['gruntfile.js'],
+            }
+        }
 
 	});
 
 	//lanceur de tâche
-	grunt.registerTask('dev', ['sass:dev']),
-    grunt.registerTask('deploy', ['sass:dev','autoprefixer']),
+	grunt.registerTask('default', ['sass:dev','watch']);
+    grunt.registerTask('deploy', ['sass:prod','autoprefixer']);
 
 
 
 
-}
+};
