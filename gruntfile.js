@@ -8,32 +8,35 @@ module.exports = function(grunt){
 	grunt.initConfig({	//initialisation de l'ensemble des tâches
 
 
-  sass: {                              // Task
-      dev: {                            // Target
-        files: {                         // Dictionary of files
-          'dev/style.css': 'dev/sass/style.scss'
-        },
-        options: {
-          update: true,
-          sourcemap: 'none',
+    sass: {                              // Task
+        dev: {                            // Target
+            files: {                         // Dictionary of files
+                'dev/style.css': 'dev/sass/style.scss'
+            },
+            options: {
+                update: true,
+                sourcemap: 'true',
+            }
         }
-      }
-  },
+    },
 
-  autoprefixer: {
-    dist :{
-       files: {
-         // Target-specific file lists and/or options go here.
-         'dev/style-autoprefixer.css':'dev/style.css',
-       }
-    }
-   },
+    autoprefixer: {
+        dist :{
+            files: {
+                // Target-specific file lists and/or options go here.
+                'dev/style-autoprefixer.css':'dev/style.css',
+            }
+        }
+    },
 
-		watch: {
+
+        watch: {
 			options: {
       		livereload: true,
     	},
-    	html: {
+
+
+        html: {
 				files: ['**/*.html']
 			},
 			sass : {
@@ -43,25 +46,13 @@ module.exports = function(grunt){
 			}
 		}
 
-		// copy: {
-		// 	main: {
-		// 		files: [
-		// 			 // makes all src relative to cwd
-		// 			 {expand: true, cwd: 'dev/', src: ['FONT/**','IMG/**','*.html'], dest: 'dist/'},
-		// 		]
-		// 	},
-		// },
-
-
-
-
 	});
 
 	//lanceur de tâche
-	grunt.registerTask('dev', ['compass:dev']),
-  grunt.registerTask('ap', ['autoprefixer']),
-	grunt.registerTask('uncss', ['uncss']),
-  grunt.registerTask('deploy', ['compass:dist','copy:main'])
+	grunt.registerTask('dev', ['sass:dev']),
+    grunt.registerTask('deploy', ['sass:dev','autoprefixer']),
+
+
 
 
 }
