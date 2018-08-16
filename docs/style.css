@@ -11,3 +11,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background: white; }
+
+img {
+  max-width: 500px; }
