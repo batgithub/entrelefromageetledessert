@@ -1,9 +1,19 @@
-$test: 179800px;
+$blue: blue;
+$white: white;
+
+$primary:$white ;
+$secondary:$blue;
+$background: $white;
+
+
+@import "reset";
+
 body {
-  margin: $test;
-  padding: 0;
-  background-color: rgb(180, 65, 201);
   display: flex;
   flex-direction: column;
-  background-size: cover;
+  background: $background;
+}
+
+img {
+  max-width: 500px;
 }

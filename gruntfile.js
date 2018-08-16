@@ -19,31 +19,61 @@ module.exports = function(grunt){
 
                 }
             },
-            prod: {                            // Target
+            docs: {                            // Target
                 files: {                         // Dictionary of files
-                    'prod/style.css': 'dev/sass/style.scss'
+                    'docs/style.css': 'dev/sass/style.scss'
                 },
                 options: {
                     update: true,
                     sourcemap: 'none',
-                    style:'compressed'
+                    style:'nested'
 
                 }
             }
         },
-
+        copy: {
+          main: {
+            files: [
+              // includes files within path
+              {
+                expand: true,
+                cwd:'dev',
+                src: ['index.html','src/*'],
+                dest: 'docs/',
+                filter: 'isFile'
+              },
+            ],
+          },
+        },
         autoprefixer: {
-            dist :{
-                files: {
-                    // Target-specific file lists and/or options go here.
-                    'dev/style-autoprefixer.css':'dev/style.css',
-                }
-            }
+          docs :{
+              files: {
+                  // Target-specific file lists and/or options go here.
+                  'docs/style.css':'dev/style.css',
+              }
+          }
         },
-
+        uglify: {
+          dev: {
+            files: {
+              'dev/app.js': [
+                'dev/js/test1.js',
+                'dev/js/test2.js'
+              ]
+            }
+          },
+          docs: {
+            files: {
+              'docs/app.js': [
+                'dev/js/test1.js',
+                'dev/js/test2.js'
+              ]
+            }
+          }
+        },
 
         watch: {
-			options: {
+		       options: {
       		        livereload: true,
 	        },
             html: {
@@ -54,6 +84,10 @@ module.exports = function(grunt){
                 tasks: ['sass:dev'],
                 options: { spawn: false }
             },
+            js: {
+              files: ['dev/js/**/*.js'],
+              task: ['uglify:dev']
+            },
             grunt: {
                 files: ['gruntfile.js'],
             }
@@ -62,8 +96,8 @@ module.exports = function(grunt){
 	});
 
 	//lanceur de tâche
-	grunt.registerTask('default', ['sass:dev','watch']);
-    grunt.registerTask('deploy', ['sass:prod','autoprefixer']);
+	grunt.registerTask('default', ['sass:dev','uglify:dev','watch']);
+  grunt.registerTask('deploy', ['sass:docs','autoprefixer','uglify:docs','copy']);
 
 
 
