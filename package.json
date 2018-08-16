@@ -15,12 +15,12 @@
   "author": "Baptiste Lhopitault",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "*",
+    "grunt": "^1.0.3",
     "grunt-autoprefixer": "*",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-sass": "*",
     "grunt-contrib-uglify": "^3.4.0",
-    "grunt-contrib-watch": "*",
+    "grunt-contrib-watch": "^1.1.0",
     "load-grunt-tasks": "*"
   }
 }
