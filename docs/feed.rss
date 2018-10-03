@@ -15,7 +15,7 @@
 	<itunes:name>baptiste</itunes:name>
 	<itunes:email>bbat@gmail.com</itunes:email>
 	</itunes:owner>
-	<itunes:image href="https://batgithub.github.io/podcast/src/img.png" />
+	<itunes:image href="https://batgithub.github.io/podcast/src/cover.jpg" />
 	<itunes:category text="Technology">
 	<itunes:category text="Gadgets"/>
 	</itunes:category>
