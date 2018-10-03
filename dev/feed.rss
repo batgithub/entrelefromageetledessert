@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+<channel>
+	<itunes:explicit>no</itunes:explicit>
+	<title>Le super podcast</title>
+	<link>http://www.exemple.com/podcasts/tout/index.html</link>
+	<language>fr-fr</language>
+	<copyright>Baptiste</copyright>
+	<itunes:subtitle>Une émission sur tout</itunes:subtitle>
+	<itunes:author>Baptiste</itunes:author>
+	<itunes:summary>Tout sur tout est une émission sur tout. Chaque semaine, nous explorons un sujet connu et l'approfondissons autant que possible. Retrouvez notre podcast sur l'iTunes Music Store</itunes:summary>
+	<description>Tout sur tout est une émission sur tout. Chaque semaine, nous explorons un sujet connu et l'approfondissons autant que possible. Recherchez notre podcast sur iTunes Store</description>
+	<itunes:owner>
+	<itunes:name>baptiste</itunes:name>
+	<itunes:email>bbat@gmail.com</itunes:email>
+	</itunes:owner>
+	<itunes:image href="http://exemple.com/podcasts/tout/ToutSurTout.jpg" />
+	<itunes:category text="Technology">
+	<itunes:category text="Gadgets"/>
+	</itunes:category>
+	<itunes:category text="TV &amp; Film"/>
+
+	<item>
+		<title>Epicez votre vie</title>
+		<itunes:author>Jean Dupont</itunes:author>
+		<itunes:subtitle>Les condiments en bref</itunes:subtitle>
+		<itunes:summary>Cette semaine nous parlons des salières et des poivriers et comparons leur débit, les matériaux utilisés et l'aspect général. Rejoignez-nous !</itunes:summary>
+		<enclosure url="http://exemple.com/podcasts/tout/ToutsurToutEpisode3.m4a" length="8727310" type="audio/x-m4a" />
+		<guid>http://exemple.com/podcasts/archive/aae20050615.m4a</guid>
+		<pubDate>Wed, 15 Jun 2005 19:00:00 GMT</pubDate>
+		<itunes:duration>7:04</itunes:duration>
+		<itunes:keywords>sel, poivre, distributeur, attrayant</itunes:keywords>
+	</item>
+
+	<item>
+		<title>Pleins feux sur les clés à douille</title>
+		<itunes:author>Jeanne Dupont</itunes:author>
+		<itunes:subtitle>Comparer les clés à douille en s'amusant !</itunes:subtitle>
+		<itunes:summary>Cette semaine nous parlons des clés à douille utilisant le système métrique et les anciennes clés anglaises. Lesquelles sont les meilleures ? Avez-vous vraiment besoin des deux ? Toutes les réponses à vos questions sont là.</itunes:summary>
+		<enclosure url="http://exemple.com/podcasts/tout/ToutSurToutEpisode2.mp3" length="5650889" type="audio/mpeg" />
+		<guid>http://exemple.com/podcasts/archive/aae20050608.mp3</guid>
+		<pubDate>Wed, 8 Jun 2005 19:00:00 GMT</pubDate>
+		<itunes:duration>4:34</itunes:duration>
+		<itunes:keywords>métrique, douille, clés, outil</itunes:keywords>
+	</item>
+
+	<item>
+		<title>Gauche contre Droite</title>
+		<itunes:author>Divers</itunes:author>
+		<itunes:subtitle>Gauche ou Droite ? La boussole s'affole !</itunes:subtitle>
+		<itunes:summary>Cette semaine nous nous intéressons aux personne de gauche vivant dans une région de droite. Ou l'inverse.</itunes:summary>
+		<enclosure url="http://exemple.com/podcasts/tout/ToutSurToutEpisode1.mp3" length="4989537" type="audio/mpeg" />
+		<guid>http://exemple.com/podcasts/archive/aae20050601.mp3</guid>
+		<pubDate>Wed, 1 Jun 2005 19:00:00 GMT</pubDate>
+		<itunes:duration>3:59</itunes:duration>
+		<itunes:keywords>politique, gauche, droite, région</itunes:keywords>
+	</item>
+</channel>
+</rss>
