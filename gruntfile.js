@@ -38,7 +38,7 @@ module.exports = function(grunt){
               {
                 expand: true,
                 cwd:'dev',
-                src: ['index.html','src/*'],
+                src: ['index.html','src/*','*.rss'],
                 dest: 'docs/',
                 filter: 'isFile'
               },
