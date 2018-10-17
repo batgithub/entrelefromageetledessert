@@ -16,6 +16,7 @@
 	<itunes:email>entreleformageetledessert@gmail.com</itunes:email>
 	</itunes:owner>
 	<itunes:image href="https://batgithub.github.io/entrelefromageetledessert/src/cover.jpg" />
+	<itunes:category text="Music" />
 	<itunes:category text="Culture &amp; Société" />
 
 
@@ -28,7 +29,7 @@
 		<enclosure url="https://batgithub.github.io/entrelefromageetledessert/src/podcast1-ecologie.mp3" length="8727310" type="audio/mp3" />
 		<pubDate>Wed, 17 Oct 2018 13:51:10 GMT</pubDate>
 		<itunes:duration>28:01</itunes:duration>
-		<itunes:keywords>debat, écologie</itunes:keywords>
+		<itunes:keywords>débat, écologie</itunes:keywords>
 	</item>
 </channel>
 </rss>
