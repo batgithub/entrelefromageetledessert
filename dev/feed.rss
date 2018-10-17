@@ -24,7 +24,7 @@
 		<itunes:author>Entre le fromage et le dessert</itunes:author>
 		<itunes:subtitle>Dans ce premier numéro on parle du sujet numéro 1 : l’écologie</itunes:subtitle>
 		<itunes:summary>Entre le Fromage et le Dessert c’est le podcast de 4 pré-trentenaire qui réagissent, sans méthode et dans une certaine anarchie, à l’actualité et aux sujets de société. Bref, c’est une discussion entre amis comme tant d’autres, entre le formage et le dessert.</itunes:summary>
-		<enclosure url="https://batgithub.github.io/podcast/src/podcast1-ecologie.mp3" length="8727310" type="audio/mp3" />
+		<enclosure url="https://batgithub.github.io/entrelefromageetledessert/src/podcast1-ecologie.mp3" length="8727310" type="audio/mp3" />
 		<pubDate>Wed, 17 Oct 2018 13:51:10 GMT</pubDate>
 		<itunes:duration>28:01</itunes:duration>
 		<itunes:keywords>debat, écologie</itunes:keywords>
