@@ -16,10 +16,7 @@
 	<itunes:email>entreleformageetledessert@gmail.com</itunes:email>
 	</itunes:owner>
 	<itunes:image href="https://batgithub.github.io/entrelefromageetledessert/src/cover.jpg" />
-	<itunes:category text="Culture et société">
-	<itunes:category text="Actualité">
-	</itunes:category>
-	<itunes:category text="Culture et société"/>
+	<itunes:category text="Culture &amp; Société" />
 
 
 
