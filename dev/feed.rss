@@ -3,33 +3,31 @@
 
 <channel>
 	<itunes:explicit>no</itunes:explicit>
-	<title>Le super podcast</title>
-	<link>https://batgithub.github.io/podcast/</link>
+	<title>Entre le fromage et le dessert</title>
+	<link>https://batgithub.github.io/entrelefromageetledessert/</link>
 	<language>fr-fr</language>
-	<copyright>Baptiste</copyright>
-	<itunes:subtitle>Une émission sur tout</itunes:subtitle>
-	<itunes:author>Baptiste</itunes:author>
-	<itunes:summary>Tout sur tout est une émission sur tout. Chaque semaine, nous explorons un sujet connu et l'approfondissons autant que possible. Retrouvez notre podcast sur l'iTunes Music Store</itunes:summary>
-	<description>Tout sur tout est une émission sur tout. Chaque semaine, nous explorons un sujet connu et l'approfondissons autant que possible. Recherchez notre podcast sur iTunes Store</description>
+	<copyright>Entre le fromage et le dessert à l’actualité et aux sujets de société.</copyright>
+	<itunes:subtitle>le podcast de 4 pré-trentenaire qui réagissent</itunes:subtitle>
+	<itunes:author>Entre le fromage et le dessert</itunes:author>
+	<itunes:summary>Entre le Fromage et le Dessert c’est le podcast de 4 pré-trentenaire qui réagissent, sans méthode et dans une certaine anarchie, à l’actualité et aux sujets de société. Bref, c’est une discussion entre amis comme tant d’autres, entre le formage et le dessert.</itunes:summary>
+	<description>Entre le Fromage et le Dessert c’est le podcast de 4 pré-trentenaire qui réagissent, sans méthode et dans une certaine anarchie, à l’actualité et aux sujets de société. Bref, c’est une discussion entre amis comme tant d’autres, entre le formage et le dessert.</description>
 	<itunes:owner>
-	<itunes:name>baptiste</itunes:name>
-	<itunes:email>bbat@gmail.com</itunes:email>
+	<itunes:name>Entre le fromage et le dessert</itunes:name>
+	<itunes:email>entreleformageetledessert@gmail.com</itunes:email>
 	</itunes:owner>
 	<itunes:image href="https://batgithub.github.io/podcast/src/cover.jpg" />
-	<itunes:category text="Technology">
-	<itunes:category text="Gadgets"/>
+	<itunes:category text="Culture et société">
 	</itunes:category>
-	<itunes:category text="TV &amp; Film"/>
 
 	<item>
-		<title>Episode 1 - Longing</title>
-		<itunes:author>Michel michelt</itunes:author>
-		<itunes:subtitle>Les condiments en bref</itunes:subtitle>
-		<itunes:summary>Cette semaine nous parlons des salières et des poivriers et comparons leur débit, les matériaux utilisés et l'aspect général. Rejoignez-nous !</itunes:summary>
+		<title>Episode 1 - le plastique c'est fantastique</title>
+		<itunes:author>Entre le fromage et le dessert</itunes:author>
+		<itunes:subtitle>Dans ce premier numéro on parle du sujet numéro 1 : l’écologie</itunes:subtitle>
+		<itunes:summary>Entre le Fromage et le Dessert c’est le podcast de 4 pré-trentenaire qui réagissent, sans méthode et dans une certaine anarchie, à l’actualité et aux sujets de société. Bref, c’est une discussion entre amis comme tant d’autres, entre le formage et le dessert.</itunes:summary>
 		<enclosure url="https://batgithub.github.io/podcast/src/Longing.mp3" length="8727310" type="audio/mp3" />
-		<pubDate>Wed, 03 Oct 2018 13:51:10 GMT</pubDate>
-		<itunes:duration>2:29</itunes:duration>
-		<itunes:keywords>sel, poivre, distributeur, attrayant</itunes:keywords>
+		<pubDate>Wed, 17 Oct 2018 13:51:10 GMT</pubDate>
+		<itunes:duration>28:01</itunes:duration>
+		<itunes:keywords>debat, écologie</itunes:keywords>
 	</item>
 </channel>
 </rss>
