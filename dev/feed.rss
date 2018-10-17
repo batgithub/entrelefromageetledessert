@@ -16,8 +16,8 @@
 	<itunes:email>entreleformageetledessert@gmail.com</itunes:email>
 	</itunes:owner>
 	<itunes:image href="https://batgithub.github.io/entrelefromageetledessert/src/cover.jpg" />
-	<itunes:category text="Music" />
-	<itunes:category text="Culture &amp; Société" />
+	<itunes:category text="Society &amp; Culture"/>
+  <itunes:type>episodic</itunes:type>
 
 
 
