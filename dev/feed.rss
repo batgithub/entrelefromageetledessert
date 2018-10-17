@@ -18,6 +18,8 @@
 	<itunes:image href="https://batgithub.github.io/entrelefromageetledessert/src/cover.jpg" />
 	<itunes:category text="Culture et société">
 	</itunes:category>
+	<itunes:category text="Culture et société"/>
+
 
 	<item>
 		<title>Episode 1 - le plastique c'est fantastique</title>
