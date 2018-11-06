@@ -22,15 +22,26 @@
 
 
 	<item>
-		<title>Episode 1 - le plastique c'est fantastique</title>
+		<title>le plastique c'est fantastique</title>
 		<itunes:author>Entre le fromage et le dessert</itunes:author>
-		<itunes:subtitle>Dans ce premier numéro on parle du sujet numéro 1 : l’écologie</itunes:subtitle>
+		<itunes:subtitle>Episode 1</itunes:subtitle>
 		<itunes:summary>Entre le Fromage et le Dessert c’est le podcast de 4 pré-trentenaire qui réagissent, sans méthode et dans une certaine anarchie, à l’actualité et aux sujets de société. Bref, c’est une discussion entre amis comme tant d’autres, entre le formage et le dessert.</itunes:summary>
-		<enclosure url="https://batgithub.github.io/entrelefromageetledessert/src/podcast1-ecologie.mp3" length="8727310" type="audio/mp3" />
+		<enclosure url="https://batgithub.github.io/entrelefromageetledessert/src/podcast1-ecologie.mp3" length="53790430" type="audio/mp3" />
 		<pubDate>Wed, 17 Oct 2018 13:51:10 GMT</pubDate>
 		<itunes:duration>28:01</itunes:duration>
 		<itunes:keywords>débat, écologie</itunes:keywords>
 		<guid>episode1</guid>
+	</item>
+	<item>
+		<title>Travail et startup-mania</title>
+		<itunes:author>Entre le fromage et le dessert</itunes:author>
+		<itunes:subtitle>Episode 2</itunes:subtitle>
+		<itunes:summary>Le travail ! Corvée pour certains, symbole d’épanouissement pour d’autres, impératif pour beaucoup et perle rare parfois, le travail est LE marronnier par excellence qui revient tous les mois sur la table en compagnie des chiffres du chômage. On a tous un rapport différent au travail. Il y a ceux qui en ont, ceux qui en cherchent, ceux qui en créent, ce qui en changent... Entre le fromage et le dessert, on a décidé de se mettre autour de la table et de parler mutations du travail et startup-mania à la lueur de nos expériences. On parle mutations du travail et startup-mania.</itunes:summary>
+		<enclosure url="https://batgithub.github.io/entrelefromageetledessert/src/podcast2-travail.mp3" length="74043733" type="audio/mp3" />
+		<pubDate>Tue, 6 Nov 2018 13:51:10 GMT</pubDate>
+		<itunes:duration>30:51</itunes:duration>
+		<itunes:keywords>débat, travail, startup</itunes:keywords>
+		<guid>episode2</guid>
 	</item>
 </channel>
 </rss>
