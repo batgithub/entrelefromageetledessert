@@ -43,5 +43,16 @@
 		<itunes:keywords>débat, travail, startup</itunes:keywords>
 		<guid>episode2</guid>
 	</item>
+	<item>
+		<title>Apprendre autrement</title>
+		<itunes:author>Entre le fromage et le dessert</itunes:author>
+		<itunes:subtitle>Episode 3</itunes:subtitle>
+		<itunes:summary>Dans cet épisode, nous nous interrogeons sur le changement de paradigme du savoir et de l’apprentissage. L’école traditionnelle laisse de nombreux individus sur le bord de la route, désintéressés, écœurés et seuls face à un avenir qu’ils n’ont pas envie d’imaginer. On appelle cela le « décrochage scolaire ». Pas une année ne passe sans que nous entendions parler de réformes du système scolaire, des enseignements, du rythme ... et pourtant, nous avons le sentiment partagé que rien de change vraiment. Il existe néanmoins des alternatives et des initiatives pédagogiques qui proposent d’autres manières d’enseigner, tant dans le fond que sur la forme. Encore méconnues et marginales, nous avons eu envie de les mettre en lumière.Avertissement : Connaissez-vous l’adage « une journée sans vin est une journée sans soleil » ? Nous, oui… A plus forte raison au détour d’un repas entre amis, entre le fromage et le dessert.</itunes:summary>
+		<enclosure url="https://batgithub.github.io/entrelefromageetledessert/src/podcast03-education.mp3" length="78648459" type="audio/mp3" />
+		<pubDate>Sun, 16 Dec 2018 13:51:10 GMT</pubDate>
+		<itunes:duration>32:46</itunes:duration>
+		<itunes:keywords>débat, education, alternatives</itunes:keywords>
+		<guid>episode3</guid>
+	</item>
 </channel>
 </rss>
